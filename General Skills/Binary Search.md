@@ -1,4 +1,9 @@
-## Soultion 
+## Challenge 
+
+![image](https://github.com/user-attachments/assets/5749e454-2af2-4f91-b608-94bc435cbf43)
+
+
+## Solution 
 
 First we have to use "wget" tool to download the relevant files from the picoCTF website as it shown.
 
@@ -22,7 +27,7 @@ As you can see, we are prompted to pick a number between 1 to 1000 and you are s
 
 Yes I know for some reason the flag isn't showing but the soultion is correct lmao😂😂😂
 
-## Explaination 
+## Explanation 
 Binary search is an efficient algorithm for finding a target value within a sorted range by repeatedly dividing the range in half. Here’s how it works in the context of guessing a number between 1 and 1000 within 10 tries:
 
 * Start by guessing the middle number between 1 and 1000 (which is 500).
