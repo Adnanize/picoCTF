@@ -13,6 +13,7 @@ After accessing it the path, we have the following game file "guessing_game.sh",
 
 
 As you can see, we are prompted to pick a number between 1 to 1000 and you are suppose to guess the number.
+
 **Catch**: You only have 10 guess!!!
 
 Binary search is an efficient algorithm for finding a target value within a sorted range by repeatedly dividing the range in half. Here’s how it works in the context of guessing a number between 1 and 1000 within 10 tries:
