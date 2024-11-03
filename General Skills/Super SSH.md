@@ -19,5 +19,5 @@ We do this by using the command "ssh ctf-player@titan.picoctf.net -p 53005". Aft
 **Command**:  ssh ctf-player@titan.picoctf.net -p 53005 
 * ssh: Starts an SSH session.
 * ctf-player@titan.picoctf.net: Specifies the username (ctf-player) and the server address (titan.picoctf.net).
-* -p 57179: Indicates the port number (57179), which is non-standard and must be specified. Your port number will be different obviously 
-* After entering this command, you'll be prompted for the password if one is required. Once connected, you’ll have access to the server with the ctf-player account on port 57179. 
+* -p 53005: Indicates the port number (53005), which is non-standard and must be specified. Your port number will be different obviously 
+* After entering this command, you'll be prompted for the password if one is required. Once connected, you’ll have access to the server with the ctf-player account on port 53005. 
