@@ -18,6 +18,10 @@ As you can see, we are prompted to pick a number between 1 to 1000 and you are s
 
 **Catch**: You only have 10 guess!!!
 
+![image](https://github.com/user-attachments/assets/2d2901c7-b5b5-4d25-8166-2fe5a1ef60a5)
+
+Yes I know for some reason the flag isn't showing but the soultion is correct lmao😂😂😂
+
 ## Explaination 
 Binary search is an efficient algorithm for finding a target value within a sorted range by repeatedly dividing the range in half. Here’s how it works in the context of guessing a number between 1 and 1000 within 10 tries:
 
@@ -29,4 +33,17 @@ Binary search is an efficient algorithm for finding a target value within a sort
 
 **By halving each time, you'll find the number in 10 guesses or fewer!**
 
+So, in our instance, we had the following:
+
+* Start with 500 (middle of 1 and 1000) → Too high.
+* Guess 250 (middle of 1 and 499) → Too high.
+* Guess 125 (middle of 1 and 249) → Too low.
+* Guess 188 (middle of 126 and 249) → Too low.
+* Guess 219 (middle of 189 and 249) → Too high.
+* Guess 203 (middle of 189 and 218) → Too low.
+* Guess 211 (middle of 204 and 218) → Too low.
+* Guess 215 (middle of 212 and 218) → Too high.
+* Guess 213 (middle of 212 and 214) → Correct!
+
+***Each guess cuts the range in half, quickly leading to the correct number, 213!***
 
