@@ -25,3 +25,5 @@ Binary search is an efficient algorithm for finding a target value within a sort
 * Continue narrowing down until you find the exact number or reach 10 tries.
 
 **By halving each time, you'll find the number in 10 guesses or fewer!**
+
+## Proper Demostration 
