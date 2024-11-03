@@ -1,7 +1,7 @@
 ## Challenge 
 ![image](https://github.com/user-attachments/assets/2c260acf-7fa5-4c72-8205-5c6231693f99)
 
-##Solution
+## Solution
 
 We use "wget" to download the files for the challenge and then we unzip the file using "unzip"
 
