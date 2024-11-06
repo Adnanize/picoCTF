@@ -10,11 +10,13 @@ First we would like to netcat to the leaking server to see what it will show us.
 By using ``` nc tethys.picoctf.net 56801 ```
 
 We can see a password displaying,** My_Passw@rd_@1234**
+
 ![image](https://github.com/user-attachments/assets/d5d48334-84e9-4ff8-b102-f8940fda27e2)
 
 Now we will netcat to the other given server by using ``` nc tethys.picoctf.net 63976 ```
 
 We can see that it prompts us to enter a password, we will enter the extracted password ** My_Passw@rd_@1234**
+
 ![image](https://github.com/user-attachments/assets/c4b56526-cde1-4a67-aab1-ffb7816ac622)
 
 Now we prompted with another 2 generic questions, we can answe them by the following.
