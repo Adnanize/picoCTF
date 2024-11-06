@@ -34,7 +34,9 @@ Now we are inside the player channel.
 ![image](https://github.com/user-attachments/assets/fe5a4822-0b2d-42f6-a1ba-44fd8cb46b2a)
 
 If we do a simple ```ls``` we can see two files
+
 1 - banner
+
 2 - text
 
 Both seems to be useless information as of now, but keep an eye of the banner file as we will use it in a moment.
