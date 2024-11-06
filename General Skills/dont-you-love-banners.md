@@ -62,6 +62,20 @@ Now we will go back to the home directory and delete the already existing banner
 Where we will make banner point to the flag.txt file. In other words the script.py file will run and open the banner file, due to symlink, the banner file will be pointing to the flag.txt where the flag is,
 Hence, when we run the code the flag should be printed right?  
 
+``` ln -s /root/flag.txt banner ```
+
+creates a symbolic (soft) link named banner that points to /root/flag.txt. Here’s a breakdown of each part:
+
+```ln```: This is the command used to create links in Linux.
+
+```-s```: The -s flag specifies that the link should be symbolic (also called a "soft link"). Unlike a hard link, a symbolic link is more like a shortcut that points to another file's path.
+
+```/root/flag.txt```: This is the target file you want to link to.
+
+```banner```: This is the name of the symbolic link that will point to /root/flag.txt.
+
+After running this command, accessing banner will display the contents of /root/flag.txt (if you have the necessary permissions to view it
+
 ![image](https://github.com/user-attachments/assets/8f975b4b-887c-4aa9-8d0d-108eb89c908e)
 
 However when we run the code now the flag still does not show, very strange right?
